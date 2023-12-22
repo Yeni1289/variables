@@ -1,0 +1,32 @@
+
+//  * @authoryeni1289
+public class Variables {
+
+    /**
+     * @param args
+     */
+    public static void main(String[] args) {
+        byte Edades = 40;
+        short Salarios = 25000;
+        long longitudDeLaTierra = 12742000;
+        float valorPi = 3.1416f ;
+        double promedios = 8.9 ;
+        char iniciales = '%';
+        System.out.println("los diferentes datos que se pueden imprimir  con los tipos de datos :");
+        System.out.println("  *Con byte se pueden utilizar numeros con el rango de : -128 a 127");
+        System.out.println("  Ejemplo:"+Edades);
+        System.out.println("  *Con short se pueden utilizar numeros con el rango de : -32768 a 32767");
+        System.out.println("  Ejemplo:"+Salarios);
+       System.out.println("  *Con long se pueden utilizar numeros con la caracteristica que sea  un numero mas grande que int");
+       System.out.println("  Ejemplo:"+longitudDeLaTierra);
+        System.out.println("  *Con float se pueden utilizar numeros con la caracteristica  de que los numeros sean con punto decimal con una capacidad de 7 cifras ");
+       System.out.println( "  Ejemplo :"+valorPi);
+        System.out.println("  *Con double se pueden utilizar numeros con la caracteristica  de que los numeros sean con punto decimal con una capacidad de 15 cifras ");
+       System.out.println( "  Ejemplo :"+promedios);
+        System.out.println("  *Con chart se pueden utilizar numeros con la caracteristica  de que que sea un caracter ");
+       System.out.println( "  Ejemplo :"+iniciales);
+       
+       
+    }
+    
+}
